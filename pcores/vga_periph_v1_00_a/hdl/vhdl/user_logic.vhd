@@ -292,17 +292,27 @@ architecture IMP of user_logic is
   signal pix_clock_s         : std_logic;
   signal vga_rst_n_s         : std_logic;
   signal pix_clock_n         : std_logic;
+  
+  signal unit_sel            : std_logic_vector(1 downto 0);
+  signal global_we			 : std_logic;
+ 
 
 begin
 
   --USER logic implementation added here
+  unit_sel  <= Bus2IP_Addr(25 downto 24);
+  
   pixel_address <= (others => '0');
   pixel_value   <= (others => '0');
-  pixel_we      <= '0';
+  --pixel_we      <= '0';
+  
+  global_we <= (not(Bus2IP_RNW) and Bus2IP_CS);
+  pixel_we <= '1' when ((unit_sel = "00") and global_we = '1') else '0';
 
   char_address <= (others => '0');
   char_value   <= (others => '0');
-  char_we      <= '0';
+  --char_we      <= '0';
+  char_we <= '1' when ((unit_sel = "01") and global_we = '1') else '0';
   
   font_size        <= x"1";
   show_frame       <= '1';
@@ -548,6 +558,7 @@ begin
   );
   vga_vsync_o <= vga_vsync_s;
   
+
   -- direct mode based on integral pixel row nad column
   dir_green   <= x"FF" when (dir_pixel_row > 200 and dir_pixel_row < 280 and dir_pixel_column > 280 and dir_pixel_column < 360) else x"00";
   dir_red     <= x"00";
