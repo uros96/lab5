@@ -75,19 +75,19 @@ void print_rectangle(Xuint32 BaseAddress) {
 }
 
 void move_char(Xuint32 BaseAddress) {
-int i;
-   int j;
-   int k = 1;
+	int i;
+	int j;
+	int k = 1;
 
-		for (i=161; i<9600; i=i+k) {
-			if (i==319) k = -1;
+	for (i=161; i<9600; i=i+k) {
+		if (i==319) k = -1;
 
-			if(i == 161) k = 1;
-				set_cursor(i);
-				print_char(BaseAddress, 'A');
-				for (j=0; j<100000; j++) { }
-				clear_text_screen(BaseAddress);
-		}
+		if(i == 161) k = 1;
+			set_cursor(i);
+			print_char(BaseAddress, 'A');
+			for (j=0; j<100000; j++) { }
+			clear_text_screen(BaseAddress);
+	}
 }
 
 

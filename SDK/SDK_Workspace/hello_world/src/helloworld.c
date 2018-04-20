@@ -69,20 +69,6 @@ int main()
     set_cursor(1000);
     set_background_color(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, 0xFDE311);
     set_foreground_color(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, 0x000000);
-    int i;
-    int j;
-    int k = 1;
-
-		for (i=161; i<9600; i=i+k) {
-			if (i==319) k = -1;
-
-			if(i == 161) k = 1;
-				set_cursor(i);
-//				print_string(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, string_s, 6);
-				print_char(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR, 'A');
-				for (j=0; j<100000; j++) { }
-				clear_text_screen(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
-		}
-
+    move_char(XPAR_VGA_PERIPH_MEM_0_S_AXI_MEM0_BASEADDR);
     return 0;
 }
