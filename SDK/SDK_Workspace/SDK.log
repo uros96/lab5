@@ -206,3 +206,35 @@ If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx 
 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
 
 10:32:48.452 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+09:07:54.271 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+09:21:46.846 INFO  - FPGA configured successfully with bitstream "D:/RA2_RA179/lab5_17.4/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:24:27.985 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:24:46.004 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:25:02.713 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:25:17.565 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:25:34.929 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:25:44.539 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:26:03.759 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:27:54.815 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:28:52.692 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:31:02.203 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:33:10.301 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:33:45.310 INFO  - FPGA configured successfully with bitstream "D:/RA2_RA179/lab5_17.4/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:40:09.307 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:41:48.461 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:41:56.652 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:42:14.843 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:42:52.736 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:43:10.864 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:43:34.343 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:43:49.117 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:44:05.934 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:44:23.188 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:44:51.269 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:45:07.213 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:45:30.255 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:46:16.884 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:46:41.018 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:46:53.484 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:47:01.535 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
