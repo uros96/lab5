@@ -145,3 +145,64 @@
 09:15:23.709 WARN  - Unable to determine location of documentation for OS . 
 09:15:23.725 ERROR - Unable to read in MSS file D:\RA2_RA179\lab5_17.4\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
 09:15:23.740 ERROR - Unable to read in MSS file D:\RA2_RA179\lab5_17.4\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:20:23.809 INFO  - FPGA configured successfully with bitstream "D:/RA2_RA179/lab5_17.4/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:22:18.277 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+09:22:18.277 ERROR - Timeout occured while waiting to get reply for command "xconnect mb mdm  " 
+09:22:18.277 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:55:26.012 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+09:55:38.337 INFO  - FPGA configured successfully with bitstream "D:/RA2_RA179/lab5_17.4/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:02:03.491 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Invalid Target ID
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:13:10.726 INFO  - FPGA configured successfully with bitstream "D:/RA2_RA179/lab5_17.4/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+10:15:30.662 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:22:20.804 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:22:52.799 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:23:07.760 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:23:19.336 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:23:45.825 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:23:58.633 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:24:06.247 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:24:39.101 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:24:51.987 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:25:12.393 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:30:28.529 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+10:31:00.610 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+10:32:22.432 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+10:32:48.452 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+10:32:48.452 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
